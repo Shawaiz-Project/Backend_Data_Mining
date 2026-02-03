@@ -1984,4 +1984,4 @@ if __name__ == '__main__':
     print("  - Clustering mining (K-Means, DBSCAN)")
     print("  - Elbow method for optimal K selection")
     print("  - Next purchase prediction")
-
+    CORS(app) 
