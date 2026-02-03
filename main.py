@@ -53,6 +53,9 @@ for folder in [UPLOAD_FOLDER, PROCESSED_FOLDER, SPMF_FOLDER]:
 
 TRANSACTIONS_FILE = os.path.join(PROCESSED_FOLDER, 'transactions.csv')
 SPMF_INPUT_FILE = os.path.join(PROCESSED_FOLDER, 'spmf_input.txt')
+@app.route('/')
+def home():
+    return {"status": "ok"}
 
 # Global dataset profiling cache
 dataset_profile = {}
