@@ -1981,7 +1981,4 @@ if __name__ == '__main__':
     print("  - Clustering mining (K-Means, DBSCAN)")
     print("  - Elbow method for optimal K selection")
     print("  - Next purchase prediction")
-    print("=" * 60)
-    print("Starting server on http://localhost:5000")
-    print("=" * 60)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+
