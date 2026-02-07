@@ -2901,4 +2901,4 @@ if __name__ == '__main__':
     print("  - Extended: Fuzzy Apriori, Two-Phase HUIM, Lossy Counting")
     print("  - ML: Naive Bayes, Decision Tree, K-Means, DBSCAN")
     print("="*60)
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    Cors(app)
